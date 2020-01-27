@@ -1,0 +1,28 @@
+instsll nohup
+
+1) ssh -i pemFileName.pem ubunutu@ip address
+
+
+2) ubuntu@ip-10-0-1-50:~/los_platform/backend$ rm los-backend.zip
+
+3) ubuntu@ip-10-0-1-50:~/los_platform/backend$ logout
+
+4) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ ps -eaf | grep java
+
+5) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ sudo kill -9 {process no}
+
+6) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ ps -eaf | grep java
+
+7) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ ls
+
+8) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ rm los-service-0.0.1-SNAPSHOT.jar
+
+9) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ mv ~/los-service-0.0.1-SNAPSHOT.jar .
+
+10) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ ls
+
+11) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ nohup run
+
+12) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ nohup sh run.sh &
+
+13) ubuntu@ip-10-0-1-50:~/los_platform/backend/LOS-SERVICE$ tail nohup.out -f 200
